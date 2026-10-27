@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    font-size: 18px;
+}
+
+.page1 {
+
+background-image: url(assets/ICSM6VO5R7HEEEU33O4SVNQQNPGQL3B4.gif);
+background-repeat: repeat;
+background-size: 100px;
+
+}
+
+.highlight {
+
+    background-color: yellow;
+    padding: 20px;
+}
+
+.square {
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 20px;
+}
+
+.rectangle {
+
+    width: 200px;
+    height: 100px;
+    background: rgb(102, 255, 0);
+    margin: 20px;
+}
+
+.circle {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(76, 0, 255);
+    margin: 20px;
+}
+
+.triangle {
+
+    width: 0px;
+    height: 0px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid yellow;
+    margin: 20px;
+}
+
+.page2{
+    background: linear-gradient(to bottom, black, white, black);
+}
+
+.position-area {
+    position: relative;
+    height: 300px;
+    border: 5px dotted black;
+
+}
+
+.position-box {
+
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: rgb(0, 165, 91);
+}
+
+.relative {
+
+    position: relative;
+    left: 100px;
+}
+
+.absolute {
+
+    height: 220px;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    background: red;
+}
+
+.fixed {
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: lightblue;
+    width: 250px;
+}
+
+.main-panel {
+
+    display: flex;
+}
+
+.content-block {
+
+    flex: 1;
+    padding: 40px;
+    margin: 10px;
+}
+
+.green {
+
+    background: green;
+}
+
+.yellow {
+
+    background: yellow;
+}
+
+.red {
+
+    background: red;
+}
+
+.gif {
+
+    width: 400px;
+}
